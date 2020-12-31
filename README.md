@@ -6,7 +6,7 @@ Pastapedia is a SwiftUI app to do nothing more than show you the amazing variety
 
 ### Installation
 
-There are two ways your can try this application:
+There are two ways you can try this application:
 
 **Building from source:**
 
