@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "spaghetti@1x.png",
+      "filename" : "fusilli@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "spaghetti@2x.png",
+      "filename" : "fusilli@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "spaghetti @3x.png",
+      "filename" : "fusilli@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

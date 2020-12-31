@@ -2,9 +2,115 @@
     {
         "id": 1,
         "name": "Spaghetti",
-        "size": "large",
+        "size": "long",
         "description": "A long, thin, solid, cylindrical noodle pasta. It is typically made from durum wheat semolina. Most famous for co-starring in spaghetti and meatballs.",
-        "alternativeNames": ["Long bois"],
-        "region": "Italy"
+        "freshCookTime": "1-3",
+        "driedCookTime": "8-12",
+        "region": "Italy",
+        "imageName": "spaghetti",
+        "imageCredit": "Photo by Christine Sandu on Unsplash"
+    },
+    {
+        "id": 2,
+        "name": "Fusilli",
+        "size": "short",
+        "description": "A variety of pasta that is formed into corkscrew or helical shape. Traditionally formed by rolling a small rod over strips of pasta to wind them into their final shape.",
+        "freshCookTime": "1-3",
+        "driedCookTime": "9-11",
+        "alternativeNames": ["Rotini"],
+        "region": "Campania, Italy",
+        "imageName": "fusilli",
+        "imageCredit": "By Luigi Chiesa - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3663706"
+    },
+    {
+        "id": 3,
+        "name": "Macaroni",
+        "size": "short",
+        "description": "A narrow, tube-shaped pasta commonly exhibiting a curved shape. A classic part of mac n' cheese.",
+        "freshCookTime": "1-2",
+        "driedCookTime": "5",
+        "region": "Italy",
+        "imageName": "macaroni",
+        "imageCredit": "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=489791"
+    },
+    {
+        "id": 4,
+        "name": "Tortellini",
+        "size": "xtraShort",
+        "description": "Ring-shaped pasta, commonly stuffed with meat or cheese.",
+        "freshCookTime": "2-3",
+        "driedCookTime": "10-11",
+        "region": "Emilia-Romagna, Italy",
+        "imageName": "tortellini",
+        "imageCredit": "Angelo.Muratore, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0, via Wikimedia Commons"
+    },
+    {
+        "id": 5,
+        "name": "Lasagna",
+        "size": "long",
+        "description": "A wide, flat pasta typically used in the Italian dish also known as Lasagna, which is prepared by stacking alternating layers of pasta with a ragú meat sauce and cheese.",
+        "freshCookTime": "2-3",
+        "driedCookTime": "8-10",
+        "region": "Naples, Italy",
+        "imageName": "lasagna",
+        "imageCredit": "Angelo.Muratore, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0, via Wikimedia Commons"
+    },
+    {
+        "id": 6,
+        "name": "Cavatappi",
+        "size": "medium",
+        "description": "Meaning \"corkscrews\" in Italian, this is a ridged tube-shaped pasta, extruded into a helix shape. Its ridges make it an excellent choice for holding rich sauces.",
+        "freshCookTime": "2-3",
+        "driedCookTime": "6-8",
+        "alternativeNames": ["Cellentani", "Serpentini", "Trivelle", "Stortelli", "Spirali", "Double elbows", "Amori"],
+        "region": "Italy",
+        "imageName": "cavatappi",
+        "imageCredit": "By Popo le Chien - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=74630674"
+    },
+    {
+        "id": 7,
+        "name": "Radiatori",
+        "size": "short",
+        "description": "A short, corkscew-shaped pasta with ruffled edges. Its name means \"radiator\" in Italian, due to its similar resemblance. Its many hollow ridges make it an excellent pick for holding rich sauces.",
+        "freshCookTime": "3-5",
+        "driedCookTime": "9-13",
+        "alternativeNames": ["Pagoda pasta"],
+        "imageName": "radiatori",
+        "imageCredit": "By Popo le Chien - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=58804936"
+    },
+    {
+        "id": 8,
+        "name": "Stelle",
+        "size": "xtraShort",
+        "description": "A very small, star-shaped pasta. Considered a \"pastina\", or literally \"little pasta\" in Italian. Usually used within broth-based dishes.",
+        "freshCookTime": "7",
+        "driedCookTime": "1-3",
+        "alternativeNames": ["Anellini", "Avermarie", "Astri", "Fiori di sambuco", "Lentine", "Puntine", "Semini", "Stellettine", "Stellette"],
+        "region": "Italy",
+        "imageName": "stelle",
+        "imageCredit": "By Popo le Chien - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=74630595"
+    },
+    {
+        "id": 9,
+        "name": "Gnocchi",
+        "size": "xtraShort",
+        "description": "A short, dense pasta resembling a dumpling. Heavily varying by region, this pasta can be made with ricotta, potato, or even polenta. It is always cooked from a fresh or frozen state.",
+        "freshCookTime": "2-3",
+        "driedCookTime": "N/A",
+        "alternativeNames": ["Gnocchetti", "Gnocchi alla romana", "Gnudi", "Malfatti", "Strangulaprievete", "Cavatelli", "Malloreddus"],
+        "imageName": "gnocchi",
+        "imageCredit": "By Paoletta S. - originally posted to Flickr as Gnocchi di ricotta burro e salvia, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=4245468"
+    },
+    {
+        "id": 10,
+        "name": "Fettuccine",
+        "size": "long",
+        "description": "A long, flat-shaped pasta. This pasta has a medium width and it most famous in the classic dish, Fettuccine Alfredo. Its name means \"little ribbons\" in Italian.",
+        "freshCookTime": "1",
+        "driedCookTime": "10-11",
+        "alternativeNames": ["Lasagnette", "Fettucce", "Ramicce", "Sagne"],
+        "region": "Rome, Italy",
+        "imageName": "fettuccine",
+        "imageCredit": "By Popo le Chien - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=71882393"
     }
 ]

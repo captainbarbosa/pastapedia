@@ -13,13 +13,15 @@ struct PastaListRow: View {
     
     var body: some View {
         HStack {
-            Image("spaghetti")
+            Image(pasta.imageName)
                 .resizable()
-                .frame(width: 80, height: 80)
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 60, height: 60)
+                .clipShape(Circle())
             Text(pasta.name)
                 .font(.title2)
                 .fontWeight(.medium)
-            Spacer()
+                .padding(.leading, 8)
         }
     }
 }

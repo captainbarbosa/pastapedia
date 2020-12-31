@@ -10,14 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            List(allPastas) { pasta in
-                NavigationLink(destination: PastaDetail(pasta: pasta)) {
-                    PastaListRow(pasta: pasta)
+            List {
+                ForEach(allPastas) { pasta in
+                    NavigationLink(destination: PastaDetail(pasta: pasta)) {
+                        PastaListRow(pasta: pasta)
+                    }
                 }
-            }
-            .environment(\.defaultMinListRowHeight, 100)
-            .navigationTitle("Pasta")
-        }
+            }.navigationTitle("Pasta")
+        }.accentColor(Color.pastapediaYellowAccent)
     }
 }
 

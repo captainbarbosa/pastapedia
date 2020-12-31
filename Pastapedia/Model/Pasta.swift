@@ -7,22 +7,22 @@
 
 import Foundation
 
-enum PastaSize: String, Decodable, CaseIterable {
-    case xsmall
-    case small
+enum PastaLength: String, Decodable, CaseIterable {
+    case xtraShort
+    case short
     case medium
-    case large
+    case long
     
     func readableSize() -> String {
         switch self {
-        case .xsmall:
+        case .xtraShort:
             return "Tiny"
-        case .small:
-            return "Small"
+        case .short:
+            return "Short"
         case .medium:
             return "Medium"
-        case .large:
-            return "Large"
+        case .long:
+            return "Long"
         }
     }
 }
@@ -30,10 +30,20 @@ enum PastaSize: String, Decodable, CaseIterable {
 struct Pasta: Decodable, Identifiable {
     var id: Int
     var name: String
-    var size: PastaSize
+    var size: PastaLength
     var description: String
+    var freshCookTime: String
+    var driedCookTime: String
     var alternativeNames: [String]?
     var region: String?
+    var imageName: String
+    var imageCredit: String
+    
+    var readableAlternativeNames: String {
+        guard let altNames = alternativeNames else { return "" }
+        
+        return altNames.joined(separator: ", ")
+    }
 }
 
 var allPastas: [Pasta] = load("pasta.json")

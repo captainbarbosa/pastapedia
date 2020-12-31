@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65372ACB259D5252005E1D7D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65372ACA259D5252005E1D7D /* Color.swift */; };
 		6587FB34259BB18E00A88891 /* PastapediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB33259BB18E00A88891 /* PastapediaApp.swift */; };
 		6587FB36259BB18E00A88891 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB35259BB18E00A88891 /* ContentView.swift */; };
 		6587FB38259BB18F00A88891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6587FB37259BB18F00A88891 /* Assets.xcassets */; };
@@ -16,9 +17,12 @@
 		6587FB4E259BBCE600A88891 /* PastaListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB4D259BBCE600A88891 /* PastaListRow.swift */; };
 		6587FB58259BC5CD00A88891 /* PastaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB57259BC5CD00A88891 /* PastaDetail.swift */; };
 		6587FB69259BE6C800A88891 /* PastaSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB68259BE6C800A88891 /* PastaSizeView.swift */; };
+		6587FB6C259C462100A88891 /* ImageCreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB6B259C462100A88891 /* ImageCreditView.swift */; };
+		6587FB6F259CFF7500A88891 /* CookTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB6E259CFF7500A88891 /* CookTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65372ACA259D5252005E1D7D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		6587FB30259BB18E00A88891 /* Pastapedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pastapedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6587FB33259BB18E00A88891 /* PastapediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastapediaApp.swift; sourceTree = "<group>"; };
 		6587FB35259BB18E00A88891 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +34,8 @@
 		6587FB4D259BBCE600A88891 /* PastaListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaListRow.swift; sourceTree = "<group>"; };
 		6587FB57259BC5CD00A88891 /* PastaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaDetail.swift; sourceTree = "<group>"; };
 		6587FB68259BE6C800A88891 /* PastaSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaSizeView.swift; sourceTree = "<group>"; };
+		6587FB6B259C462100A88891 /* ImageCreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCreditView.swift; sourceTree = "<group>"; };
+		6587FB6E259CFF7500A88891 /* CookTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65372AC9259D5246005E1D7D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				65372ACA259D5252005E1D7D /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6587FB27259BB18E00A88891 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +79,7 @@
 				6587FB47259BBA3600A88891 /* Model */,
 				6587FB4C259BBCB900A88891 /* Views */,
 				6587FB43259BB32600A88891 /* Resources */,
+				65372AC9259D5246005E1D7D /* Extensions */,
 				6587FB33259BB18E00A88891 /* PastapediaApp.swift */,
 				6587FB37259BB18F00A88891 /* Assets.xcassets */,
 				6587FB3C259BB18F00A88891 /* Info.plist */,
@@ -104,6 +119,8 @@
 				6587FB4D259BBCE600A88891 /* PastaListRow.swift */,
 				6587FB57259BC5CD00A88891 /* PastaDetail.swift */,
 				6587FB68259BE6C800A88891 /* PastaSizeView.swift */,
+				6587FB6B259C462100A88891 /* ImageCreditView.swift */,
+				6587FB6E259CFF7500A88891 /* CookTimeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,9 +198,12 @@
 				6587FB36259BB18E00A88891 /* ContentView.swift in Sources */,
 				6587FB34259BB18E00A88891 /* PastapediaApp.swift in Sources */,
 				6587FB4E259BBCE600A88891 /* PastaListRow.swift in Sources */,
+				6587FB6F259CFF7500A88891 /* CookTimeView.swift in Sources */,
 				6587FB69259BE6C800A88891 /* PastaSizeView.swift in Sources */,
+				6587FB6C259C462100A88891 /* ImageCreditView.swift in Sources */,
 				6587FB58259BC5CD00A88891 /* PastaDetail.swift in Sources */,
 				6587FB49259BBA4100A88891 /* Pasta.swift in Sources */,
+				65372ACB259D5252005E1D7D /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
