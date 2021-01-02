@@ -1,0 +1,38 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  },
+  "stickers" : [
+    {
+      "filename" : "macaroni.sticker"
+    },
+    {
+      "filename" : "rigatoni.sticker"
+    },
+    {
+      "filename" : "stelle.sticker"
+    },
+    {
+      "filename" : "gnocchi.sticker"
+    },
+    {
+      "filename" : "spaghetti.sticker"
+    },
+    {
+      "filename" : "conchiglie.sticker"
+    },
+    {
+      "filename" : "ravioli.sticker"
+    },
+    {
+      "filename" : "rotelle.sticker"
+    },
+    {
+      "filename" : "farfalle.sticker"
+    }
+  ]
+}
